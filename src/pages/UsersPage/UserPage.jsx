@@ -54,7 +54,7 @@ function UserPage() {
       <Form onChange={handleChange}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Full Name</Form.Label>
-          <Form.Control type="name" name="fullName" placeholder="Enter email" />
+          <Form.Control type="text" name="fullName" placeholder="Enter email" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -63,7 +63,7 @@ function UserPage() {
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Username</Form.Label>
           <Form.Control
-            type="name"
+            type="text"
             name="username"
             placeholder="Enter username"
           />
