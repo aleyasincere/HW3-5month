@@ -27,7 +27,6 @@ function UserPage() {
       ...input,
       [name]: value,
     });
-    console.log(input);
   };
 
   const handleSubmit = (e) => {
