@@ -33,12 +33,6 @@ export function fetchUserData(user) {
   };
 }
 
-export function fetchUser() {
-  return {
-    type: types.FETCH,
-  };
-}
-
 export function fetchUserPosts(users) {
   return async function (dispatch) {
     dispatch(loaderOnn());
