@@ -41,9 +41,9 @@ function UserPage() {
       return alert("Please fill all fields");
     }
     if (
-      regExpGmail.test(!email) ||
-      regExpFullName.test(!fullName) ||
-      regExpPassword.test(!password)
+      !regExpGmail.test(email) ||
+      !regExpFullName.test(fullName) ||
+      !regExpPassword.test(password)
     )
       return alert("Please fill all fields correctly");
 
